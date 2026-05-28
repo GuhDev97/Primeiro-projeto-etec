@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Técnico em Desenvolvimento de Sistemas</title>
+
+    <!-- W3.CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .w3-sidebar {
+            width: 120px;
+            background: #222;
+        }
+
+        #main {
+            margin-left: 120px;
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px;
+        }
+
+        /* Responsividade */
+
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+
+    <nav class="w3-sidebar w3-bar-block w3-center w3-hide-small">
+
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-black">
+
+            <i class="fa fa-home w3-xxlarge"></i>
+
+            <p>HOME</p>
+
+        </a>
+
+        <a href="#sobre" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan">
+
+            <i class="fa fa-user w3-xxlarge"></i>
+
+            <p>SOBRE</p>
+
+        </a>
+
+        <a href="#gradeC" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan">
+
+            <i class="fa fa-columns w3-xxlarge"></i>
+
+            <p>GRADE</p>
+
+        </a>
+
+        <a href="#mercado" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan">
+
+            <i class="fa fa-handshake-o w3-xxlarge"></i>
+
+            <p>MERCADO</p>
+
+        </a>
+
+        <a href="#tecnologias" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan">
+
+            <i class="fa fa-connectdevelop w3-xxlarge"></i>
+
+            <p>TECNOLOGIAS</p>
+
+        </a>
+
+        <a href="#contato" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan">
+
+            <i class="fa fa-envelope w3-xxlarge"></i>
+
+            <p>CONTATO</p>
+
+        </a>
+
+    </nav>
+
+    <!-- Navbar Mobile -->
+
+    <div class="w3-top w3-hide-large w3-hide-medium">
+
+        <nav class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+
+            <a href="#home" class="w3-bar-item w3-button" style="width:25%">
+
+                HOME
+
+            </a>
+
+            <a href="#sobre" class="w3-bar-item w3-button" style="width:25%">
+
+                SOBRE
+
+            </a>
+
+            <a href="#tecnologias" class="w3-bar-item w3-button" style="width:25%">
+
+                TECNOLOGIAS
+
+            </a>
+
+            <a href="#contato" class="w3-bar-item w3-button" style="width:25%">
+
+                CONTATO
+
+            </a>
+
+        </nav>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+
+    <div class="w3-padding-large" id="main">
+
+        <!-- HOME -->
+
+        <header class="w3-container w3-padding-32 w3-center" id="home">
+
+            <img src="IMG/logoCab.png" alt="Logo CPS" class="w3-image" width="50%">
+
+            <br><br>
+
+            <img src="IMG/logoDS.png" alt="Desenvolvimento de Sistemas" class="w3-image" width="90%">
+
+        </header>
+
+        <!-- SOBRE -->
+
+        <div class="w3-content w3-justify w3-padding-64" id="sobre">
+
+            <h2 class="w3-text-cyan">
+                Sobre o Curso
+            </h2>
+
+            <hr style="width:200px" class="w3-opacity">
+
+            <ul class="w3-ul w3-hoverable w3-center w3-white w3-text-black">
+
+                <li class="w3-cyan w3-xlarge w3-padding-32">
+
+                    O curso tem como objetivo capacitar o aluno para:
+
+                </li>
+
+                <li class="w3-padding-16">
+                    Desenvolver e operar sistemas
+                </li>
+
+                <li class="w3-padding-16">
+                    Criar aplicações web
+                </li>
+
+                <li class="w3-padding-16">
+                    Trabalhar com banco de dados
+                </li>
+
+                <li class="w3-padding-16">
+                    Projetar sistemas
+                </li>
+
+                <li class="w3-padding-16">
+                    Trabalhar com segurança da informação
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- GRADE -->
+
+        <div class="w3-padding-64 w3-content" id="gradeC">
+
+            <h2 class="w3-text-cyan">
+                Grade Curricular
+            </h2>
+
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-row-padding">
+
+                <div class="w3-half">
+
+                    <ul class="w3-ul w3-white w3-center w3-hoverable">
+
+                        <li class="w3-cyan w3-xlarge w3-padding-32">
+                            1º Módulo
+                        </li>
+
+                        <li class="w3-padding-16">Lógica de Programação</li>
+
+                        <li class="w3-padding-16">Banco de Dados</li>
+
+                        <li class="w3-padding-16">Programação Web</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="w3-half">
+
+                    <ul class="w3-ul w3-white w3-center w3-hoverable">
+
+                        <li class="w3-cyan w3-xlarge w3-padding-32">
+                            2º Módulo
+                        </li>
+
+                        <li class="w3-padding-16">JavaScript</li>
+
+                        <li class="w3-padding-16">PHP</li>
+
+                        <li class="w3-padding-16">Desenvolvimento Mobile</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- MERCADO -->
+
+        <div class="w3-padding-64 w3-content" id="mercado">
+
+            <h2 class="w3-text-cyan">
+                Mercado de Trabalho
+            </h2>
+
+            <hr style="width:200px" class="w3-opacity">
+
+            <p>
+                A área de Tecnologia da Informação está em constante crescimento.
+            </p>
+
+            <p>
+                Empresas buscam profissionais capacitados para desenvolvimento de sistemas,
+                aplicações web e banco de dados.
+            </p>
+
+        </div>
+
+        <!-- TECNOLOGIAS -->
+
+        <div class="w3-padding-64 w3-content" id="tecnologias">
+
+            <h2 class="w3-text-cyan">
+                Tecnologias
+            </h2>
+
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-row w3-row-padding">
+
+                <div class="w3-half">
+
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+
+                        <img src="IMG/html5.png" style="width:50%" class="w3-opacity w3-hover-opacity-off">
+
+                    </a>
+
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+
+                        <img src="IMG/css3.png" style="width:50%" class="w3-opacity w3-hover-opacity-off">
+
+                    </a>
+
+                    <a href="https://www.php.net/" target="_blank">
+
+                        <img src="IMG/php.png" style="width:50%" class="w3-opacity w3-hover-opacity-off">
+
+                    </a>
+
+                </div>
+
+                <div class="w3-half">
+
+                    <a href="https://learn.microsoft.com/pt-br/dotnet/csharp/" target="_blank">
+
+                        <img src="IMG/csharp.png" style="width:50%" class="w3-opacity w3-hover-opacity-off">
+
+                    </a>
+
+                    <a href="https://www.mysql.com/" target="_blank">
+
+                        <img src="IMG/sql.png" style="width:50%" class="w3-opacity w3-hover-opacity-off">
+
+                    </a>
+
+                    <a href="https://www.java.com/pt-BR/" target="_blank">
+
+                        <img src="IMG/java.png" style="width:50%" class="w3-opacity w3-hover-opacity-off">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CONTATO -->
+
+        <div class="w3-padding-64 w3-content w3-text-grey" id="contato">
+
+            <h2 class="w3-text-cyan">
+                Contato
+            </h2>
+
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+
+                <p>
+                    <i class="fa fa-map-marker fa-fw w3-text-cyan w3-xxlarge w3-margin-right"></i>
+
+                    São Paulo - SP
+
+                </p>
+
+                <p>
+                    <i class="fa fa-phone fa-fw w3-text-cyan w3-xxlarge w3-margin-right"></i>
+
+                    (11) 3333-3333
+
+                </p>
+
+                <p>
+                    <i class="fa fa-envelope fa-fw w3-text-cyan w3-xxlarge w3-margin-right"></i>
+
+                    ds@cps.sp.gov.br
+
+                </p>
+
+            </div>
+
+            <!-- Formulário -->
+
+            <p>
+                Entre em contato:
+            </p>
+
+            <form>
+
+                <p>
+
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Nome" required>
+
+                </p>
+
+                <p>
+
+                    <input class="w3-input w3-padding-16" type="email" placeholder="Email" required>
+
+                </p>
+
+                <p>
+
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Assunto" required>
+
+                </p>
+
+                <p>
+
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Mensagem" required>
+
+                </p>
+
+                <p>
+
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+
+                        <i class="fa fa-paper-plane"></i>
+
+                        Enviar mensagem
+
+                    </button>
+
+                </p>
+
+            </form>
+
+        </div>
+
+        <!-- FOOTER -->
+
+        <footer class="w3-content w3-padding-64 w3-text-cyan w3-xlarge w3-center">
+
+            <a href="https://portalgeead.cps.sp.gov.br/" target="_blank">
+
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+
+            </a>
+
+            <a href="https://portalgeead.cps.sp.gov.br/" target="_blank">
+
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+
+            </a>
+
+            <a href="https://portalgeead.cps.sp.gov.br/" target="_blank">
+
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+
+            </a>
+
+            <a href="https://portalgeead.cps.sp.gov.br/" target="_blank">
+
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+
+            </a>
+
+            <a href="https://portalgeead.cps.sp.gov.br/" target="_blank">
+
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+
+            </a>
+
+            <a href="https://portalgeead.cps.sp.gov.br/" target="_blank">
+
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+            </a>
+
+            <p class="w3-medium">
+
+                Powered by
+
+                <a href="https://portalgeead.cps.sp.gov.br/" target="_blank">
+
+                    GEEAD
+
+                </a>
+
+            </p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
