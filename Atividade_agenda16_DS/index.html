@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pegue e Monte LaGu</title>
+
+<!--
+Projeto desenvolvido com auxílio da IA ChatGPT.
+Utilizada como consultora técnica para:
+- Estrutura HTML
+- Slideshow
+- Estilização com W3.CSS
+- Correção de erros
+-->
+
+<link rel="stylesheet"
+href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+body,h1,h2,h3,h4,h5,h6{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color:#111;
+    color:white;
+}
+
+.w3-sidebar{
+    width:120px;
+    background:#222;
+}
+
+#main{
+    margin-left:120px;
+}
+
+.logo{
+    width:200px;
+    margin-bottom:20px;
+}
+
+.mySlides{
+    display:none;
+}
+
+footer{
+    margin-top:50px;
+}
+
+@media only screen and (max-width:600px){
+
+    #main{
+        margin-left:0;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- MENU LATERAL -->
+
+<nav class="w3-sidebar w3-bar-block w3-center w3-hide-small">
+
+    <a href="#home"
+    class="w3-bar-item w3-button w3-padding-large">
+
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+
+    </a>
+
+    <a href="#parceiros"
+    class="w3-bar-item w3-button w3-padding-large">
+
+        <i class="fa fa-users w3-xxlarge"></i>
+        <p>PARCEIROS</p>
+
+    </a>
+
+    <a href="#produtos"
+    class="w3-bar-item w3-button w3-padding-large">
+
+        <i class="fa fa-shopping-cart w3-xxlarge"></i>
+        <p>SERVIÇOS</p>
+
+    </a>
+
+    <a href="#faq"
+    class="w3-bar-item w3-button w3-padding-large">
+
+        <i class="fa fa-question-circle w3-xxlarge"></i>
+        <p>FAQ</p>
+
+    </a>
+
+</nav>
+
+<!-- CONTEÚDO -->
+
+<div id="main" class="w3-padding-large">
+
+    <!-- HOME -->
+
+    <section id="home" class="w3-container w3-padding-64 w3-center">
+
+        <img
+        src="imagens/Gemini_Generated_Image_lepd5clepd5clepd.png"
+        alt="Logo LaGu"
+        class="logo">
+
+        <h1 class="w3-text-cyan">
+            Pegue e Monte LaGu
+        </h1>
+
+        <h3>
+            Você imagina e nós criamos!
+        </h3>
+
+        <br>
+
+        <img
+        src="imagens/empresa.jpg"
+        alt="Empresa"
+        class="w3-image w3-round-large"
+        style="max-width:700px">
+
+        <h2 class="w3-text-cyan">
+            Nossa História
+        </h2>
+
+        <p>
+            A Pegue e Monte LaGu nasceu para oferecer
+            móveis modulares e soluções inteligentes
+            para residências e empresas.
+        </p>
+
+        <h2 class="w3-text-cyan">
+            Missão
+        </h2>
+
+        <p>
+            Entregar qualidade, praticidade e inovação.
+        </p>
+
+        <h2 class="w3-text-cyan">
+            Valores
+        </h2>
+
+        <p>
+            Compromisso, respeito, inovação e excelência.
+        </p>
+
+    </section>
+
+    <!-- PARCEIROS -->
+
+    <section id="parceiros" class="w3-container w3-padding-64">
+
+        <h2 class="w3-text-cyan w3-center">
+            Parceiros
+        </h2>
+
+        <div class="w3-row-padding w3-center">
+
+            <div class="w3-third">
+
+                <div class="w3-card w3-white w3-padding">
+
+                    <img src="imagens/buffet-cata-vento.jfif"
+                    width="120">
+
+                    <p class="w3-text-black">
+                        Cata Vento
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="w3-third">
+
+                <div class="w3-card w3-white w3-padding">
+
+                    <img src="imagens/confeitaria-mel-rosa.jfif"
+                    width="120">
+                    <p class="w3-text-black">
+                        Mel Rosa
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="w3-third">
+
+                <div class="w3-card w3-white w3-padding">
+
+                    <img src="imagens/casa-do-pao.jfif"
+                    width="120">
+
+                    <p class="w3-text-black">
+                        Casa do Pão
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SERVIÇOS -->
+
+    <section id="produtos"
+    class="w3-container w3-padding-64">
+
+        <h2 class="w3-text-cyan w3-center">
+            Serviços e Produtos
+        </h2>
+
+        <div class="w3-content"
+        style="max-width:700px">
+
+            <img class="mySlides"
+            src="imagens/Carros.png"
+            style="width:100%">
+
+            <img class="mySlides"
+            src="imagens/chadebebe.jpg"
+            style="width:100%">
+
+            <img class="mySlides"
+            src="imagens/0baf55fd-6709-4707-83be-f1e6081d25c8.jfif"
+            style="width:100%">
+
+        </div>
+
+        <div class="w3-center w3-margin-top">
+
+            <button class="w3-button w3-cyan"
+            onclick="plusDivs(-1)">
+
+                ❮ Anterior
+
+            </button>
+
+            <button class="w3-button w3-cyan"
+            onclick="plusDivs(1)">
+
+                Próximo ❯
+
+            </button>
+
+        </div>
+
+        <div class="w3-panel w3-light-grey w3-round-large w3-margin-top">
+
+            <h3 class="w3-text-black">
+                O que oferecemos?
+            </h3>
+
+            <p class="w3-text-black">
+                • Montagem de móveis.
+            </p>
+
+            <p class="w3-text-black">
+                • Móveis planejados.
+            </p>
+
+            <p class="w3-text-black">
+                • Consultoria em ambientes.
+            </p>
+
+            <p class="w3-text-black">
+                • Projetos personalizados.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FAQ -->
+
+    <section id="faq" class="w3-container w3-padding-64">
+
+        <h2 class="w3-text-cyan">
+            FAQ
+        </h2>
+
+        <p>
+            <strong>Quanto tempo leva a montagem?</strong>
+        </p>
+
+        <p>
+            Em média de 1 a 3 dias.
+        </p>
+
+        <p>
+            <strong>Vocês fazem orçamento?</strong>
+        </p>
+
+        <p>
+            Sim, gratuitamente.
+        </p>
+
+    </section>
+
+    <!-- RODAPÉ -->
+
+    <footer class="w3-center w3-padding-32">
+
+        <h3 class="w3-text-cyan">
+            Contato
+        </h3>
+
+        <p>
+            contato@lagu.com.br
+        </p>
+
+        <p>
+            (11) 99999-9999
+        </p>
+
+        <div class="w3-xlarge">
+
+            <a href="#">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+</div>
+
+<script>
+
+let slideIndex = 1;
+
+showDivs(slideIndex);
+
+function plusDivs(n){
+
+    showDivs(slideIndex += n);
+
+}
+
+function showDivs(n){
+
+    let i;
+
+    let x =
+    document.getElementsByClassName("mySlides");
+
+    if(n > x.length){
+        slideIndex = 1;
+    }
+
+    if(n < 1){
+        slideIndex = x.length;
+    }
+
+    for(i = 0; i < x.length; i++){
+
+        x[i].style.display = "none";
+
+    }
+
+    x[slideIndex - 1].style.display = "block";
+
+}
+
+</script>
+
+</body>
+</html>
+```
