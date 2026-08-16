@@ -7,7 +7,7 @@
 <title>GET e POST</title>
 </head>
 <body>
-<form id="form1"name="form1"method="get"action="acao.php">
+<form id="form1"name="form1"method="post"action="acao.php">
 <br>
  Nome <input name="nome"type="text"id="nome"placeholder = "Digitar
 Nome">
